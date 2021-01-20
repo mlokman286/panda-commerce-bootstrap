@@ -7,6 +7,7 @@
     <title>Panda Commerce site</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -23,21 +24,24 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Shoes</a>
-                        <a class="nav-link" href="#">Backpack</a>
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                        <a class="nav-link" href="#shoe">Shoes</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                        <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
                     </div>
                 </div>
             </div>
         </nav>
         <!-- Navbar End -->
         <!-- slide section start -->
-        <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide panda-slide mt-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row">
+                    <div class="row d-flex align-items-center p-5">
                         <div class="col-md-7">
-
+                            <h1>Mega LCD TV For Sports</h1>
+                            <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                            <h3>$1200</h3>
+                            <button class="btn btn-warning">Buy Now</button>
                         </div>
                         <div class="col-md-5">
                             <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -45,16 +49,26 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                            <h1>Cool Dude Headphone</h1>
+                            <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                            <h3>$420</h3>
+                            <button class="btn btn-warning">Buy Now</button>
+                        </div>
                         <div class="col-md-5">
                             <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="row d-flex align-items-center p-5">
+                        <div class="col-md-7">
+                            <h1>X-Box for your living room</h1>
+                            <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                            <h3>$600</h3>
+                            <button class="btn btn-warning">Buy Now</button>
+                        </div>
                         <div class="col-md-5">
                             <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
                         </div>
@@ -75,22 +89,22 @@
     <!--  -->
     <main class="container">
         <!-- Start -->
-        <section class="container px-4 mt-5">
-            <div class="text-white row gx-5">
+        <section class="container categories px-4 mt-5">
+            <div class="text-white row g-5">
                 <div class="col">
-                    <div class="p-3 rounded bg-warning d-flex justify-content-around">
+                    <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
                         <h1>Watch</h1>
                         <img src="images/categories/watch.png" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 rounded bg-success d-flex justify-content-around">
+                    <div class="p-3 rounded bg-success d-flex align-items-center justify-content-around">
                         <h1>Bag</h1>
                         <img src="images/categories/bag.png" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 rounded bg-primary d-flex justify-content-around">
+                    <div class="p-3 rounded bg-primary d-flex align-items-center justify-content-around">
                         <h1>shoe</h1>
                         <img src="images/categories/shoes.png" alt="">
                     </div>
@@ -99,11 +113,11 @@
         </section>
         <!-- End  -->
         <!-- shoe section star -->
-        <section class="mt-5 container">
+        <section id="shoe" class="mt-5 container">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col ">
-                    <div class="card h-100 shadow">
+                <div class="col">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
@@ -116,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike 360</h5>
@@ -129,7 +143,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Airmax</h5>
@@ -147,11 +161,11 @@
         <!-- shoe section End  -->
 
         <!-- Baclpack section star -->
-        <section class="mt-5 container">
+        <section id="backpack" class="mt-5 container">
             <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col ">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Laltu Bag</h5>
@@ -165,7 +179,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Blue Niltu Bag</h5>
@@ -179,7 +193,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Black Kaltu Bag</h5>
@@ -200,7 +214,7 @@
 
         <!-- Commnet Section Start -->
 
-        <section style="height:300px" class="d-flex align-items-center mt-5 justify-content-center bg-info">
+        <section id="subscribe" style="height:300px" class="d-flex align-items-center mt-5 justify-content-center bg-info">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <h5>Get update on seles, specials and more.</h5>
@@ -212,7 +226,9 @@
         <!-- Commnet Section End   -->
     </main>
     <!--  -->
-
+    <footer class="text-center mt-5">
+        <small>@2025,Panda Commerce. All right reserved. Sofia,Bulgaria.</small>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
